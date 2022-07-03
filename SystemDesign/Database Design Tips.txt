@@ -1,0 +1,13 @@
+Database Design Tips | Choosing the Best Database in a System Design Interview.
+
+Data Store :
+1.structured / or unstructure data  -> choose Redis cahing 
+2. blobs  like image , video, -> s3 + CDN
+3. Text Search  - >  Elastic search, Solr
+4. Time Series database   : inflex, open TSDB
+5. data store for analytics Data Warehouse:   
+
+Structured Data 
+   Need ACID -> RDBMS (Mysql, oracle, SQL server, Postgres)
+unstructure data 
+	
